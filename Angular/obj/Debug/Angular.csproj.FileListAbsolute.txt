@@ -1,0 +1,6 @@
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\bin\Angular.dll.config
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\bin\Angular.dll
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\bin\Angular.pdb
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.csprojResolveAssemblyReference.cache
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.dll
+c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.pdb
