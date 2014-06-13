@@ -4,3 +4,8 @@ c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\bin\Angular
 c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.csprojResolveAssemblyReference.cache
 c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.dll
 c:\users\admin\documents\visual studio 2013\Projects\Angular\Angular\obj\Debug\Angular.pdb
+C:\Code\Angular\Angular\bin\Angular.dll.config
+C:\Code\Angular\Angular\bin\Angular.dll
+C:\Code\Angular\Angular\bin\Angular.pdb
+C:\Code\Angular\Angular\obj\Debug\Angular.dll
+C:\Code\Angular\Angular\obj\Debug\Angular.pdb

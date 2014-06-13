@@ -1,5 +1,16 @@
-﻿var app = angular.module('Angular', ['ngRoute', 'ui.bootstrap']);
-app.config(function($routeProvider)){
+﻿var app = angular.module('Angular', ['ngRoute', 'ngResource', 'ui.bootstrap']);
+app.config(function($routeProvider){
 
-    $routeProvider.when("/about")
-}
+    $routeProvider.when("/about", {
+        controller: "/Controllers/About",
+        templateUrl: "/Views/About.html"
+    });
+
+    $routeProvider.when("/gallery", {
+        controller: "/Controllers/Gallery",
+        templateUrl: "/Views/Gallery.html"
+    });
+
+    $routeProvider.otherwise({redirectTo: "/Views/Index.html"})
+
+});

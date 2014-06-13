@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.30501.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Angular", "Angular\Angular.csproj", "{67F53F78-C087-4DCA-8811-AA39923D6E3E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularService", "AngularService\AngularService.csproj", "{A022D2CE-2BC6-4D16-869B-A05434ABFADC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{67F53F78-C087-4DCA-8811-AA39923D6E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{67F53F78-C087-4DCA-8811-AA39923D6E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{67F53F78-C087-4DCA-8811-AA39923D6E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A022D2CE-2BC6-4D16-869B-A05434ABFADC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A022D2CE-2BC6-4D16-869B-A05434ABFADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A022D2CE-2BC6-4D16-869B-A05434ABFADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A022D2CE-2BC6-4D16-869B-A05434ABFADC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

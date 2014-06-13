@@ -57,6 +57,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Controllers\About.js" />
+    <Content Include="Controllers\Gallery.js" />
+    <Content Include="Controllers\Register.js" />
+    <Content Include="CSS\bootstrap-theme.css" />
+    <Content Include="CSS\bootstrap-theme.min.css" />
+    <Content Include="CSS\bootstrap.css" />
+    <Content Include="CSS\bootstrap.min.css" />
     <Content Include="packages.config" />
     <Content Include="Scripts\angular-touch.min.js.map" />
     <Content Include="Scripts\angular-sanitize.min.js.map" />
@@ -96,7 +103,11 @@
     <Content Include="Scripts\angular-ui\ui-bootstrap.min.js" />
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\angular.min.js" />
+    <Content Include="Services\AngularService.js" />
+    <Content Include="Views\About.html" />
+    <Content Include="Views\Gallery.html" />
     <Content Include="Views\Index.html" />
+    <Content Include="Views\Register.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -104,10 +115,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Content\" />
-    <Folder Include="Controllers\" />
     <Folder Include="Directives\" />
     <Folder Include="Filters\" />
-    <Folder Include="Services\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
