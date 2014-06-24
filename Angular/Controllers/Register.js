@@ -13,11 +13,11 @@
             
             var data = AngularService.register(user,
                 function (successResult) {
-                // do something on success
+                    // do something on success
+                    console.log(successResult);
             }, function (errorResult) {
                 // do something on error
-                if (errorResult.status === 404) {
-                }
+                console.log(errorResult);
             });
             
         }
