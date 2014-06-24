@@ -1,3 +1,3 @@
-﻿app.controller('Gallery', function () {
+﻿app.controller('GalleryController', function () {
 
 });

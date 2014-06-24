@@ -1,9 +1,7 @@
-﻿<!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <title></title>
-</head>
-<body>
+﻿<div ng-controller="RegisterController as r">
+    <label>Email:</label><input type="email" ng-model="r.email" />
+    <label>Password:</label><input type="password" ng-model="r.pswd" />
+    <label>Confirm Password:</label><input type="password" ng-model="r.confirmpswd" />
+    <input ng-click="r.registerUser()" type="button"/>Register
+</div>
 
-</body>
-</html>

@@ -1,14 +1,19 @@
 ﻿var app = angular.module('Angular', ['ngRoute', 'ngResource', 'ui.bootstrap']);
 app.config(function($routeProvider){
-
+    
     $routeProvider.when("/about", {
-        controller: "/Controllers/About",
-        templateUrl: "/Views/About.html"
+        controller: "AboutController",
+        templateUrl: "/Angular/Views/About.html"
     });
 
     $routeProvider.when("/gallery", {
-        controller: "/Controllers/Gallery",
-        templateUrl: "/Views/Gallery.html"
+        controller: "GalleryController",
+        templateUrl: "/Angular/Views/Gallery.html"
+    });
+
+    $routeProvider.when("/register", {
+        controller: "RegisterController",
+        templateUrl: "/Angular/Views/Register.html"
     });
 
     $routeProvider.otherwise({redirectTo: "/Views/Index.html"})
