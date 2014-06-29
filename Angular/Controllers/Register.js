@@ -24,9 +24,32 @@
         catch(err)
         { }
 
-
-        var test = AngularService.users();
+       
 
     };
+
+    this.signIn = function () {
+
+
+        try {
+
+             var user = { Email: this.email, Password: this.pswd};
+
+            var data = AngularService.signIn(user, 
+                function (successResult) {
+                    // do something on success
+                    console.log(successResult);
+                }, function (errorResult) {
+                    // do something on error
+                    console.log(errorResult);
+                });
+
+        }
+        catch(err)
+        {
+
+        }
+
+    }
 
 });

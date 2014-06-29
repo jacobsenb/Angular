@@ -9,3 +9,4 @@ C:\Code\Angular\Angular\bin\Angular.dll
 C:\Code\Angular\Angular\bin\Angular.pdb
 C:\Code\Angular\Angular\obj\Debug\Angular.dll
 C:\Code\Angular\Angular\obj\Debug\Angular.pdb
+C:\Code\Angular\Angular\obj\Debug\Angular.csprojResolveAssemblyReference.cache

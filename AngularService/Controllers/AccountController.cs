@@ -125,7 +125,7 @@ namespace AngularService.Controllers
 
             IdentityResult result = await UserManager.ChangePasswordAsync(User.Identity.GetUserId(), model.OldPassword,
                 model.NewPassword);
-            
+
             if (!result.Succeeded)
             {
                 return GetErrorResult(result);
@@ -258,9 +258,9 @@ namespace AngularService.Controllers
             if (hasRegistered)
             {
                 Authentication.SignOut(DefaultAuthenticationTypes.ExternalCookie);
-                
-                 ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(UserManager,
-                    OAuthDefaults.AuthenticationType);
+
+                ClaimsIdentity oAuthIdentity = await user.GenerateUserIdentityAsync(UserManager,
+                   OAuthDefaults.AuthenticationType);
                 ClaimsIdentity cookieIdentity = await user.GenerateUserIdentityAsync(UserManager,
                     CookieAuthenticationDefaults.AuthenticationType);
 
@@ -330,6 +330,7 @@ namespace AngularService.Controllers
 
             var user = new ApplicationUser() { UserName = model.Email, Email = model.Email };
 
+
             IdentityResult result = await UserManager.CreateAsync(user, model.Password);
 
             if (!result.Succeeded)
@@ -368,9 +369,29 @@ namespace AngularService.Controllers
             result = await UserManager.AddLoginAsync(user.Id, info.Login);
             if (!result.Succeeded)
             {
-                return GetErrorResult(result); 
+                return GetErrorResult(result);
             }
             return Ok();
+        }
+
+        [AllowAnonymous]
+        [Route("SignIn")]
+        public async Task SignIn(ApplicationUser user, bool isPersistent)
+        {
+            try
+            {
+                var identity = await UserManager.CreateIdentityAsync(user, DefaultAuthenticationTypes.ApplicationCookie);
+            
+                        Authentication.SignIn(new AuthenticationProperties()
+            {
+                IsPersistent = isPersistent 
+            }, identity);  
+            }
+                     
+            catch(Exception ex)
+            {
+                string s = ex.Message;
+            }
         }
 
         protected override void Dispose(bool disposing)

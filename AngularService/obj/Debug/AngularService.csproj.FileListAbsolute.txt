@@ -58,6 +58,6 @@ C:\Code\Angular\AngularService\bin\Microsoft.Owin.Security.Google.xml
 C:\Code\Angular\AngularService\bin\Microsoft.Owin.Security.Twitter.xml
 C:\Code\Angular\AngularService\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 C:\Code\Angular\AngularService\bin\System.Web.Http.Owin.xml
-C:\Code\Angular\AngularService\obj\Debug\AngularService.csprojResolveAssemblyReference.cache
 C:\Code\Angular\AngularService\obj\Debug\AngularService.dll
 C:\Code\Angular\AngularService\obj\Debug\AngularService.pdb
+C:\Code\Angular\AngularService\obj\Debug\AngularService.csprojResolveAssemblyReference.cache
